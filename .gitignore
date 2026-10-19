@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+functions/lib/
+dist-data/
+admin/dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+ui-debug.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Expo
+app/.expo/
+
+# Icons (optional, large files)
+# icons/
+
+# Temp files
+extract_docx.ps1
+prompt_content.txt
+*.docx

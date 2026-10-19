@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "MLBB Skin Collage",
+    "slug": "mlbb-collage",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "mlbb-collage",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0B1220"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B1220"
+      },
+      "package": "com.mlbbcollage.app",
+      "googleServicesFile": "./google-services.json"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-firebase/app-check",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow MLBB Collage to save images to your gallery.",
+          "savePhotosPermission": "Allow MLBB Collage to save images to your gallery."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow MLBB Collage to access your screenshots."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-eas-project-id"
+      },
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}

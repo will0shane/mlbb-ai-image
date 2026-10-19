@@ -1,0 +1,13 @@
+{
+  "name": "mlbb-collage-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MLBB Skin Collage Monorepo",
+  "scripts": {
+    "start": "npm --prefix app start",
+    "app": "npm --prefix app start",
+    "admin": "npm --prefix admin run dev",
+    "functions:build": "npm --prefix functions run build",
+    "test:app": "npm --prefix app test"
+  }
+}
